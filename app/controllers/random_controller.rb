@@ -13,4 +13,7 @@ class RandomController < ApplicationController
 
   def e
   end
+
+  def home
+  end
 end
