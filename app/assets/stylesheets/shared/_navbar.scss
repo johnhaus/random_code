@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 20px;
+  height: 60px;
+  background-color: lightgrey;
+}
+
+.navbar-left {
+  display: flex;
+  padding: 5px 30px;
+  margin-top: 15px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.navbar-right {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.navbar-right-items {
+  padding: 5px 20px;
+  margin: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
