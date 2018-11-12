@@ -6,3 +6,20 @@
   height: 100vh;
   background-image: radial-gradient(#0000cc 10%, #40ff00 80%);
 }
+.bouncing-text {
+    position: relative;
+    top: 90%;
+    animation-name: jump;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+#text {
+  animation-timing-function: cubic-bezier(0.3, 0.4, 0.5, 1.6);
+}
+
+@keyframes jump {
+  50% {
+    top: 10%;
+  }
+}
